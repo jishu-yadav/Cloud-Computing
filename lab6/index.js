@@ -9,7 +9,7 @@ const bodyparser = require("body-parser");
 const urlencodedParser = bodyparser.urlencoded({ extended: false });
 
 const db = mysql.createConnection({
-  host: "mymysqlinstance.cnudltsupzi6.us-east-1.rds.amazonaws.com",
+  host: "test4.czdxirnzvqzn.us-east-1.rds.amazonaws.com",
   port: "3306",
   user: "admin",
   password: "321Jishu",
